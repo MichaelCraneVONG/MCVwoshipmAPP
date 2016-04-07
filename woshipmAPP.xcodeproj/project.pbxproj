@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FE9BD031CB6E0B600A06098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD021CB6E0B600A06098 /* main.m */; };
+		6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD051CB6E0B600A06098 /* AppDelegate.m */; };
+		6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD081CB6E0B600A06098 /* ViewController.m */; };
+		6FE9BD0C1CB6E0B600A06098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */; };
+		6FE9BD0E1CB6E0B700A06098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */; };
+		6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */; };
+		6FE9BD1C1CB6E0B800A06098 /* woshipmAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */; };
+		6FE9BD271CB6E0B800A06098 /* woshipmAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FE9BD181CB6E0B700A06098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE9BCF61CB6E0B500A06098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE9BCFD1CB6E0B600A06098;
+			remoteInfo = woshipmAPP;
+		};
+		6FE9BD231CB6E0B800A06098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE9BCF61CB6E0B500A06098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE9BCFD1CB6E0B600A06098;
+			remoteInfo = woshipmAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woshipmAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE9BD021CB6E0B600A06098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FE9BD041CB6E0B600A06098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FE9BD051CB6E0B600A06098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FE9BD071CB6E0B600A06098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FE9BD081CB6E0B600A06098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FE9BD0B1CB6E0B600A06098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE9BD101CB6E0B700A06098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE9BD121CB6E0B700A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE9BD171CB6E0B700A06098 /* woshipmAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woshipmAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woshipmAPPTests.m; sourceTree = "<group>"; };
+		6FE9BD1D1CB6E0B800A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woshipmAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woshipmAPPUITests.m; sourceTree = "<group>"; };
+		6FE9BD281CB6E0B800A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE9BCFB1CB6E0B600A06098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD141CB6E0B700A06098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD1F1CB6E0B800A06098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FE9BCF51CB6E0B500A06098 = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD001CB6E0B600A06098 /* woshipmAPP */,
+				6FE9BD1A1CB6E0B800A06098 /* woshipmAPPTests */,
+				6FE9BD251CB6E0B800A06098 /* woshipmAPPUITests */,
+				6FE9BCFF1CB6E0B600A06098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE9BCFF1CB6E0B600A06098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */,
+				6FE9BD171CB6E0B700A06098 /* woshipmAPPTests.xctest */,
+				6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE9BD001CB6E0B600A06098 /* woshipmAPP */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD041CB6E0B600A06098 /* AppDelegate.h */,
+				6FE9BD051CB6E0B600A06098 /* AppDelegate.m */,
+				6FE9BD071CB6E0B600A06098 /* ViewController.h */,
+				6FE9BD081CB6E0B600A06098 /* ViewController.m */,
+				6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */,
+				6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */,
+				6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */,
+				6FE9BD121CB6E0B700A06098 /* Info.plist */,
+				6FE9BD011CB6E0B600A06098 /* Supporting Files */,
+			);
+			path = woshipmAPP;
+			sourceTree = "<group>";
+		};
+		6FE9BD011CB6E0B600A06098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD021CB6E0B600A06098 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FE9BD1A1CB6E0B800A06098 /* woshipmAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */,
+				6FE9BD1D1CB6E0B800A06098 /* Info.plist */,
+			);
+			path = woshipmAPPTests;
+			sourceTree = "<group>";
+		};
+		6FE9BD251CB6E0B800A06098 /* woshipmAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */,
+				6FE9BD281CB6E0B800A06098 /* Info.plist */,
+			);
+			path = woshipmAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE9BD2B1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPP" */;
+			buildPhases = (
+				6FE9BCFA1CB6E0B600A06098 /* Sources */,
+				6FE9BCFB1CB6E0B600A06098 /* Frameworks */,
+				6FE9BCFC1CB6E0B600A06098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woshipmAPP;
+			productName = woshipmAPP;
+			productReference = 6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FE9BD161CB6E0B700A06098 /* woshipmAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE9BD2E1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPTests" */;
+			buildPhases = (
+				6FE9BD131CB6E0B700A06098 /* Sources */,
+				6FE9BD141CB6E0B700A06098 /* Frameworks */,
+				6FE9BD151CB6E0B700A06098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE9BD191CB6E0B700A06098 /* PBXTargetDependency */,
+			);
+			name = woshipmAPPTests;
+			productName = woshipmAPPTests;
+			productReference = 6FE9BD171CB6E0B700A06098 /* woshipmAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FE9BD211CB6E0B800A06098 /* woshipmAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE9BD311CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPUITests" */;
+			buildPhases = (
+				6FE9BD1E1CB6E0B800A06098 /* Sources */,
+				6FE9BD1F1CB6E0B800A06098 /* Frameworks */,
+				6FE9BD201CB6E0B800A06098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE9BD241CB6E0B800A06098 /* PBXTargetDependency */,
+			);
+			name = woshipmAPPUITests;
+			productName = woshipmAPPUITests;
+			productReference = 6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE9BCF61CB6E0B500A06098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = myApple;
+				TargetAttributes = {
+					6FE9BCFD1CB6E0B600A06098 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9C3NNACRSM;
+					};
+					6FE9BD161CB6E0B700A06098 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9C3NNACRSM;
+						TestTargetID = 6FE9BCFD1CB6E0B600A06098;
+					};
+					6FE9BD211CB6E0B800A06098 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9C3NNACRSM;
+						TestTargetID = 6FE9BCFD1CB6E0B600A06098;
+					};
+				};
+			};
+			buildConfigurationList = 6FE9BCF91CB6E0B500A06098 /* Build configuration list for PBXProject "woshipmAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE9BCF51CB6E0B500A06098;
+			productRefGroup = 6FE9BCFF1CB6E0B600A06098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */,
+				6FE9BD161CB6E0B700A06098 /* woshipmAPPTests */,
+				6FE9BD211CB6E0B800A06098 /* woshipmAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE9BCFC1CB6E0B600A06098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */,
+				6FE9BD0E1CB6E0B700A06098 /* Assets.xcassets in Resources */,
+				6FE9BD0C1CB6E0B600A06098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD151CB6E0B700A06098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD201CB6E0B800A06098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE9BCFA1CB6E0B600A06098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */,
+				6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */,
+				6FE9BD031CB6E0B600A06098 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD131CB6E0B700A06098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9BD1C1CB6E0B800A06098 /* woshipmAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD1E1CB6E0B800A06098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9BD271CB6E0B800A06098 /* woshipmAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FE9BD191CB6E0B700A06098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */;
+			targetProxy = 6FE9BD181CB6E0B700A06098 /* PBXContainerItemProxy */;
+		};
+		6FE9BD241CB6E0B800A06098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */;
+			targetProxy = 6FE9BD231CB6E0B800A06098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE9BD0B1CB6E0B600A06098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE9BD101CB6E0B700A06098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE9BD291CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FE9BD2A1CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE9BD2C1CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = woshipmAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FE9BD2D1CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = woshipmAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FE9BD2F1CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = woshipmAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woshipmAPP.app/woshipmAPP";
+			};
+			name = Debug;
+		};
+		6FE9BD301CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = woshipmAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woshipmAPP.app/woshipmAPP";
+			};
+			name = Release;
+		};
+		6FE9BD321CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = woshipmAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woshipmAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6FE9BD331CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = woshipmAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woshipmAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE9BCF91CB6E0B500A06098 /* Build configuration list for PBXProject "woshipmAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD291CB6E0B800A06098 /* Debug */,
+				6FE9BD2A1CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE9BD2B1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD2C1CB6E0B800A06098 /* Debug */,
+				6FE9BD2D1CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FE9BD2E1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD2F1CB6E0B800A06098 /* Debug */,
+				6FE9BD301CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FE9BD311CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD321CB6E0B800A06098 /* Debug */,
+				6FE9BD331CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE9BCF61CB6E0B500A06098 /* Project object */;
+}
