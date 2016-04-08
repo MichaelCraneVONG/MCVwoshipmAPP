@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5A75521CB7F6DD008759DE /* MMDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75511CB7F6DD008759DE /* MMDrawerVisualStateManager.m */; };
+		6F5A75551CB7FD8A008759DE /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75541CB7FD8A008759DE /* CenterViewController.m */; };
+		6F5A755D1CB809FA008759DE /* onePicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A755B1CB809FA008759DE /* onePicTableViewCell.m */; };
+		6F5A755E1CB809FA008759DE /* onePicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A755C1CB809FA008759DE /* onePicCell.xib */; };
+		6F5A75611CB815AD008759DE /* threePicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75601CB815AD008759DE /* threePicTableViewCell.m */; };
+		6F5A75681CB81AF3008759DE /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75671CB81AF3008759DE /* MainTableViewController.m */; };
+		6F5A756A1CB8235F008759DE /* threePicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A75691CB8235F008759DE /* threePicCell.xib */; };
+		6F5A75701CB83832008759DE /* LeftSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */; };
+		6F5A75721CB83EE2008759DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A75711CB83EE2008759DE /* Images.xcassets */; };
 		6FE9BD031CB6E0B600A06098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD021CB6E0B600A06098 /* main.m */; };
 		6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD051CB6E0B600A06098 /* AppDelegate.m */; };
 		6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD081CB6E0B600A06098 /* ViewController.m */; };
@@ -15,6 +24,7 @@
 		6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */; };
 		6FE9BD1C1CB6E0B800A06098 /* woshipmAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */; };
 		6FE9BD271CB6E0B800A06098 /* woshipmAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */; };
+		ADB7FD51D05B87C74FEE1B01 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7515378248D64D9AC4B3E281 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F5A75271CB7E2FD008759DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6F5A75501CB7F6DD008759DE /* MMDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		6F5A75511CB7F6DD008759DE /* MMDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		6F5A75531CB7FD8A008759DE /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		6F5A75541CB7FD8A008759DE /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		6F5A755A1CB809FA008759DE /* onePicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onePicTableViewCell.h; sourceTree = "<group>"; };
+		6F5A755B1CB809FA008759DE /* onePicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = onePicTableViewCell.m; sourceTree = "<group>"; };
+		6F5A755C1CB809FA008759DE /* onePicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = onePicCell.xib; sourceTree = "<group>"; };
+		6F5A755F1CB815AD008759DE /* threePicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threePicTableViewCell.h; sourceTree = "<group>"; };
+		6F5A75601CB815AD008759DE /* threePicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threePicTableViewCell.m; sourceTree = "<group>"; };
+		6F5A75661CB81AF3008759DE /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		6F5A75671CB81AF3008759DE /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		6F5A75691CB8235F008759DE /* threePicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = threePicCell.xib; sourceTree = "<group>"; };
+		6F5A756E1CB83832008759DE /* LeftSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideMenuViewController.h; sourceTree = "<group>"; };
+		6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideMenuViewController.m; sourceTree = "<group>"; };
+		6F5A75711CB83EE2008759DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woshipmAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE9BD021CB6E0B600A06098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FE9BD041CB6E0B600A06098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,9 @@
 		6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woshipmAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woshipmAPPUITests.m; sourceTree = "<group>"; };
 		6FE9BD281CB6E0B800A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7515378248D64D9AC4B3E281 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC640CEAC166D73A160DD2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E064D00A0E6ECAAF94E53952 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB7FD51D05B87C74FEE1B01 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34C29217E4574F971ADBD982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7515378248D64D9AC4B3E281 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F5A752B1CB7E84D008759DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75531CB7FD8A008759DE /* CenterViewController.h */,
+				6F5A75541CB7FD8A008759DE /* CenterViewController.m */,
+				6FE9BD071CB6E0B600A06098 /* ViewController.h */,
+				6FE9BD081CB6E0B600A06098 /* ViewController.m */,
+				6F5A75661CB81AF3008759DE /* MainTableViewController.h */,
+				6F5A75671CB81AF3008759DE /* MainTableViewController.m */,
+				6F5A756E1CB83832008759DE /* LeftSideMenuViewController.h */,
+				6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F5A75591CB8073D008759DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75651CB816BE008759DE /* TabelViewCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6F5A75621CB815F1008759DE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD041CB6E0B600A06098 /* AppDelegate.h */,
+				6FE9BD051CB6E0B600A06098 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6F5A75631CB81622008759DE /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75641CB8166A008759DE /* MMDrawerControllerManager */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		6F5A75641CB8166A008759DE /* MMDrawerControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75501CB7F6DD008759DE /* MMDrawerVisualStateManager.h */,
+				6F5A75511CB7F6DD008759DE /* MMDrawerVisualStateManager.m */,
+			);
+			name = MMDrawerControllerManager;
+			sourceTree = "<group>";
+		};
+		6F5A75651CB816BE008759DE /* TabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A755C1CB809FA008759DE /* onePicCell.xib */,
+				6F5A75691CB8235F008759DE /* threePicCell.xib */,
+				6F5A755A1CB809FA008759DE /* onePicTableViewCell.h */,
+				6F5A755B1CB809FA008759DE /* onePicTableViewCell.m */,
+				6F5A755F1CB815AD008759DE /* threePicTableViewCell.h */,
+				6F5A75601CB815AD008759DE /* threePicTableViewCell.m */,
+			);
+			name = TabelViewCell;
+			sourceTree = "<group>";
+		};
 		6FE9BCF51CB6E0B500A06098 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +185,8 @@
 				6FE9BD1A1CB6E0B800A06098 /* woshipmAPPTests */,
 				6FE9BD251CB6E0B800A06098 /* woshipmAPPUITests */,
 				6FE9BCFF1CB6E0B600A06098 /* Products */,
+				C9FA84BDA60969875C745E9F /* Pods */,
+				34C29217E4574F971ADBD982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +203,15 @@
 		6FE9BD001CB6E0B600A06098 /* woshipmAPP */ = {
 			isa = PBXGroup;
 			children = (
-				6FE9BD041CB6E0B600A06098 /* AppDelegate.h */,
-				6FE9BD051CB6E0B600A06098 /* AppDelegate.m */,
-				6FE9BD071CB6E0B600A06098 /* ViewController.h */,
-				6FE9BD081CB6E0B600A06098 /* ViewController.m */,
+				6F5A75621CB815F1008759DE /* AppDelegate */,
+				6F5A75591CB8073D008759DE /* Views */,
+				6F5A752B1CB7E84D008759DE /* ViewControllers */,
+				6F5A75631CB81622008759DE /* Vendors */,
 				6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */,
 				6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */,
 				6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */,
 				6FE9BD121CB6E0B700A06098 /* Info.plist */,
+				6F5A75711CB83EE2008759DE /* Images.xcassets */,
 				6FE9BD011CB6E0B600A06098 /* Supporting Files */,
 			);
 			path = woshipmAPP;
@@ -118,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				6FE9BD021CB6E0B600A06098 /* main.m */,
+				6F5A75271CB7E2FD008759DE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +244,15 @@
 			path = woshipmAPPUITests;
 			sourceTree = "<group>";
 		};
+		C9FA84BDA60969875C745E9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E064D00A0E6ECAAF94E53952 /* Pods.debug.xcconfig */,
+				BFC640CEAC166D73A160DD2F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FE9BD2B1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPP" */;
 			buildPhases = (
+				9AA29AA289774F73D5926880 /* Check Pods Manifest.lock */,
 				6FE9BCFA1CB6E0B600A06098 /* Sources */,
 				6FE9BCFB1CB6E0B600A06098 /* Frameworks */,
 				6FE9BCFC1CB6E0B600A06098 /* Resources */,
+				8014422FB9EF6FAA3105D232 /* Embed Pods Frameworks */,
+				101A6D8B346A12C2F0E8232E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +362,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5A756A1CB8235F008759DE /* threePicCell.xib in Resources */,
 				6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */,
 				6FE9BD0E1CB6E0B700A06098 /* Assets.xcassets in Resources */,
+				6F5A75721CB83EE2008759DE /* Images.xcassets in Resources */,
+				6F5A755E1CB809FA008759DE /* onePicCell.xib in Resources */,
 				6FE9BD0C1CB6E0B600A06098 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +387,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		101A6D8B346A12C2F0E8232E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8014422FB9EF6FAA3105D232 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA29AA289774F73D5926880 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FE9BCFA1CB6E0B600A06098 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5A75701CB83832008759DE /* LeftSideMenuViewController.m in Sources */,
+				6F5A75681CB81AF3008759DE /* MainTableViewController.m in Sources */,
+				6F5A75611CB815AD008759DE /* threePicTableViewCell.m in Sources */,
+				6F5A75521CB7F6DD008759DE /* MMDrawerVisualStateManager.m in Sources */,
 				6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */,
 				6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */,
 				6FE9BD031CB6E0B600A06098 /* main.m in Sources */,
+				6F5A755D1CB809FA008759DE /* onePicTableViewCell.m in Sources */,
+				6F5A75551CB7FD8A008759DE /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +585,11 @@
 		};
 		6FE9BD2C1CB6E0B800A06098 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E064D00A0E6ECAAF94E53952 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = woshipmAPP/PrefixHeader.pch;
 				INFOPLIST_FILE = woshipmAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPP;
@@ -423,8 +599,11 @@
 		};
 		6FE9BD2D1CB6E0B800A06098 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC640CEAC166D73A160DD2F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = woshipmAPP/PrefixHeader.pch;
 				INFOPLIST_FILE = woshipmAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPP;
@@ -499,6 +678,7 @@
 				6FE9BD2D1CB6E0B800A06098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE9BD2E1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +687,7 @@
 				6FE9BD301CB6E0B800A06098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE9BD311CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +696,7 @@
 				6FE9BD331CB6E0B800A06098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
