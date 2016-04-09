@@ -15,7 +15,6 @@
 		6F5A75681CB81AF3008759DE /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75671CB81AF3008759DE /* MainTableViewController.m */; };
 		6F5A756A1CB8235F008759DE /* threePicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A75691CB8235F008759DE /* threePicCell.xib */; };
 		6F5A75701CB83832008759DE /* LeftSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */; };
-		6F5A75721CB83EE2008759DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A75711CB83EE2008759DE /* Images.xcassets */; };
 		6FE9BD031CB6E0B600A06098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD021CB6E0B600A06098 /* main.m */; };
 		6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD051CB6E0B600A06098 /* AppDelegate.m */; };
 		6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD081CB6E0B600A06098 /* ViewController.m */; };
@@ -60,7 +59,6 @@
 		6F5A75691CB8235F008759DE /* threePicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = threePicCell.xib; sourceTree = "<group>"; };
 		6F5A756E1CB83832008759DE /* LeftSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideMenuViewController.h; sourceTree = "<group>"; };
 		6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideMenuViewController.m; sourceTree = "<group>"; };
-		6F5A75711CB83EE2008759DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woshipmAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE9BD021CB6E0B600A06098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FE9BD041CB6E0B600A06098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */,
 				6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */,
 				6FE9BD121CB6E0B700A06098 /* Info.plist */,
-				6F5A75711CB83EE2008759DE /* Images.xcassets */,
 				6FE9BD011CB6E0B600A06098 /* Supporting Files */,
 			);
 			path = woshipmAPP;
@@ -365,7 +362,6 @@
 				6F5A756A1CB8235F008759DE /* threePicCell.xib in Resources */,
 				6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */,
 				6FE9BD0E1CB6E0B700A06098 /* Assets.xcassets in Resources */,
-				6F5A75721CB83EE2008759DE /* Images.xcassets in Resources */,
 				6F5A755E1CB809FA008759DE /* onePicCell.xib in Resources */,
 				6FE9BD0C1CB6E0B600A06098 /* Main.storyboard in Resources */,
 			);
