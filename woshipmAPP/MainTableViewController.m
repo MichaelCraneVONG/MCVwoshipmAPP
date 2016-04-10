@@ -5,7 +5,8 @@
 //  Created by myApple on 16/4/9.
 //  Copyright © 2016年 myApple. All rights reserved.
 //
-
+#import <SVWebViewController/SVWebViewControllerActivity.h>
+#import <SVWebViewController/SVWebViewController.h>
 #import "MainTableViewController.h"
 #import "onePicTableViewCell.h"
 #import "threePicTableViewCell.h"
@@ -14,7 +15,7 @@
 #import "ListBaseObject.h"
 static NSString * const reuseIdOnePic = @"onePicCell";
 static NSString * const reuseIdThreePic=@"threePicCell";
-@interface MainTableViewController ()
+@interface MainTableViewController ()<UIWebViewDelegate>
 @property (nonatomic,strong)NSString *jsonStr;
 @property (nonatomic,assign)NSUInteger page;
 @property (nonatomic,assign)NSMutableArray *marrData;
@@ -113,10 +114,7 @@ static NSString * const reuseIdThreePic=@"threePicCell";
                 listObj.strLink=[dic objectForKey:@"link"];
                 listObj.strPublishTime=[dic objectForKey:@"publishTime"];
                 listObj.strImage=[dic objectForKey:@"image"];
-//                listObj.strTitle
                 [_marrData addObject:listObj];
-//                NSLog(@"json%@",self.marrData);
-//                NSLog(@"title:%@",listObj.strTitle);
             }
             
 
@@ -148,7 +146,6 @@ static NSString * const reuseIdThreePic=@"threePicCell";
 #pragma mark - Button Handlers
 -(void)leftDrawerButtonPress:(id)sender{
     [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
-    NSLog(@"%@",self.marrData);
 }
 
 
@@ -211,18 +208,51 @@ static NSString * const reuseIdThreePic=@"threePicCell";
         NSString *strTemp=[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
         strTemp=[strTemp stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
         UIImageView *imgV=imgV_ImageArr[i];
-        imgV.image=[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:strTemp]]];
+        [imgV sd_setImageWithURL:[NSURL URLWithString:strTemp] placeholderImage:[UIImage imageNamed:@"img_loading"]];
         i++;
     }
     
     
-//
-    
     return threePicCell;
 }
 
+#pragma mark --TableViewDelegate tableView的代理事件
+//去掉分区头
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 0.01;
+}
 
+//去掉分区尾
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 0.01;
+}
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ListBaseObject *listObj=(ListBaseObject *)[_marrData objectAtIndex:indexPath.row];
+    NSLog(@"%@",listObj.strLink);
+    NSURL *URL = [NSURL URLWithString:[listObj.strLink stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
+    SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
+    webViewController.modalPresentationStyle = UIModalPresentationPageSheet;
+    webViewController.extendedLayoutIncludesOpaqueBars=NO;
+    webViewController.delegate=self;
 
+    
+    [self.navigationController pushViewController:webViewController animated:YES];
+   
+    
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [webView stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('p_back float_l')[0].remove()"];
+    [webView stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('float_r mar-t10')[0].style.float='Left'"];
+    [webView stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('tips_app')[0].remove()"];
+//    [webView stringByEvaluatingJavaScriptFromString:@"document.getElementsByTagName('br')[0].remove()"];
+    NSLog(@"%@",[webView stringByEvaluatingJavaScriptFromString:@"var colorName=document.getElementsByClassName('list_box')[0].children[0].style.background"]);
+    
+}
 
 @end
