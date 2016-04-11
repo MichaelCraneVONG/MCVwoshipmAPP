@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F5A75521CB7F6DD008759DE /* MMDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75511CB7F6DD008759DE /* MMDrawerVisualStateManager.m */; };
+		6F5A75551CB7FD8A008759DE /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75541CB7FD8A008759DE /* CenterViewController.m */; };
+		6F5A755D1CB809FA008759DE /* onePicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A755B1CB809FA008759DE /* onePicTableViewCell.m */; };
+		6F5A755E1CB809FA008759DE /* onePicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A755C1CB809FA008759DE /* onePicCell.xib */; };
+		6F5A75611CB815AD008759DE /* threePicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75601CB815AD008759DE /* threePicTableViewCell.m */; };
+		6F5A75681CB81AF3008759DE /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A75671CB81AF3008759DE /* MainTableViewController.m */; };
+		6F5A756A1CB8235F008759DE /* threePicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A75691CB8235F008759DE /* threePicCell.xib */; };
+		6F5A75701CB83832008759DE /* LeftSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */; };
+		6F5A75721CB83EE2008759DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A75711CB83EE2008759DE /* Images.xcassets */; };
+		6FE9BD031CB6E0B600A06098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD021CB6E0B600A06098 /* main.m */; };
+		6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD051CB6E0B600A06098 /* AppDelegate.m */; };
+		6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD081CB6E0B600A06098 /* ViewController.m */; };
+		6FE9BD0C1CB6E0B600A06098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */; };
+		6FE9BD0E1CB6E0B700A06098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */; };
+		6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */; };
+		6FE9BD1C1CB6E0B800A06098 /* woshipmAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */; };
+		6FE9BD271CB6E0B800A06098 /* woshipmAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */; };
+		ADB7FD51D05B87C74FEE1B01 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7515378248D64D9AC4B3E281 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FE9BD181CB6E0B700A06098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE9BCF61CB6E0B500A06098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE9BCFD1CB6E0B600A06098;
+			remoteInfo = woshipmAPP;
+		};
+		6FE9BD231CB6E0B800A06098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FE9BCF61CB6E0B500A06098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FE9BCFD1CB6E0B600A06098;
+			remoteInfo = woshipmAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F5A75271CB7E2FD008759DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6F5A75501CB7F6DD008759DE /* MMDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		6F5A75511CB7F6DD008759DE /* MMDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		6F5A75531CB7FD8A008759DE /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		6F5A75541CB7FD8A008759DE /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		6F5A755A1CB809FA008759DE /* onePicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onePicTableViewCell.h; sourceTree = "<group>"; };
+		6F5A755B1CB809FA008759DE /* onePicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = onePicTableViewCell.m; sourceTree = "<group>"; };
+		6F5A755C1CB809FA008759DE /* onePicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = onePicCell.xib; sourceTree = "<group>"; };
+		6F5A755F1CB815AD008759DE /* threePicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threePicTableViewCell.h; sourceTree = "<group>"; };
+		6F5A75601CB815AD008759DE /* threePicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threePicTableViewCell.m; sourceTree = "<group>"; };
+		6F5A75661CB81AF3008759DE /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		6F5A75671CB81AF3008759DE /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		6F5A75691CB8235F008759DE /* threePicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = threePicCell.xib; sourceTree = "<group>"; };
+		6F5A756E1CB83832008759DE /* LeftSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideMenuViewController.h; sourceTree = "<group>"; };
+		6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideMenuViewController.m; sourceTree = "<group>"; };
+		6F5A75711CB83EE2008759DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woshipmAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE9BD021CB6E0B600A06098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FE9BD041CB6E0B600A06098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FE9BD051CB6E0B600A06098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FE9BD071CB6E0B600A06098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FE9BD081CB6E0B600A06098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FE9BD0B1CB6E0B600A06098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FE9BD101CB6E0B700A06098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FE9BD121CB6E0B700A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE9BD171CB6E0B700A06098 /* woshipmAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woshipmAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woshipmAPPTests.m; sourceTree = "<group>"; };
+		6FE9BD1D1CB6E0B800A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woshipmAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woshipmAPPUITests.m; sourceTree = "<group>"; };
+		6FE9BD281CB6E0B800A06098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7515378248D64D9AC4B3E281 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC640CEAC166D73A160DD2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E064D00A0E6ECAAF94E53952 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FE9BCFB1CB6E0B600A06098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7FD51D05B87C74FEE1B01 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD141CB6E0B700A06098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD1F1CB6E0B800A06098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C29217E4574F971ADBD982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7515378248D64D9AC4B3E281 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F5A752B1CB7E84D008759DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75531CB7FD8A008759DE /* CenterViewController.h */,
+				6F5A75541CB7FD8A008759DE /* CenterViewController.m */,
+				6FE9BD071CB6E0B600A06098 /* ViewController.h */,
+				6FE9BD081CB6E0B600A06098 /* ViewController.m */,
+				6F5A75661CB81AF3008759DE /* MainTableViewController.h */,
+				6F5A75671CB81AF3008759DE /* MainTableViewController.m */,
+				6F5A756E1CB83832008759DE /* LeftSideMenuViewController.h */,
+				6F5A756F1CB83832008759DE /* LeftSideMenuViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F5A75591CB8073D008759DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75651CB816BE008759DE /* TabelViewCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6F5A75621CB815F1008759DE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD041CB6E0B600A06098 /* AppDelegate.h */,
+				6FE9BD051CB6E0B600A06098 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6F5A75631CB81622008759DE /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75641CB8166A008759DE /* MMDrawerControllerManager */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		6F5A75641CB8166A008759DE /* MMDrawerControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75501CB7F6DD008759DE /* MMDrawerVisualStateManager.h */,
+				6F5A75511CB7F6DD008759DE /* MMDrawerVisualStateManager.m */,
+			);
+			name = MMDrawerControllerManager;
+			sourceTree = "<group>";
+		};
+		6F5A75651CB816BE008759DE /* TabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A755C1CB809FA008759DE /* onePicCell.xib */,
+				6F5A75691CB8235F008759DE /* threePicCell.xib */,
+				6F5A755A1CB809FA008759DE /* onePicTableViewCell.h */,
+				6F5A755B1CB809FA008759DE /* onePicTableViewCell.m */,
+				6F5A755F1CB815AD008759DE /* threePicTableViewCell.h */,
+				6F5A75601CB815AD008759DE /* threePicTableViewCell.m */,
+			);
+			name = TabelViewCell;
+			sourceTree = "<group>";
+		};
+		6FE9BCF51CB6E0B500A06098 = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD001CB6E0B600A06098 /* woshipmAPP */,
+				6FE9BD1A1CB6E0B800A06098 /* woshipmAPPTests */,
+				6FE9BD251CB6E0B800A06098 /* woshipmAPPUITests */,
+				6FE9BCFF1CB6E0B600A06098 /* Products */,
+				C9FA84BDA60969875C745E9F /* Pods */,
+				34C29217E4574F971ADBD982 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FE9BCFF1CB6E0B600A06098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */,
+				6FE9BD171CB6E0B700A06098 /* woshipmAPPTests.xctest */,
+				6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE9BD001CB6E0B600A06098 /* woshipmAPP */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A75621CB815F1008759DE /* AppDelegate */,
+				6F5A75591CB8073D008759DE /* Views */,
+				6F5A752B1CB7E84D008759DE /* ViewControllers */,
+				6F5A75631CB81622008759DE /* Vendors */,
+				6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */,
+				6FE9BD0D1CB6E0B700A06098 /* Assets.xcassets */,
+				6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */,
+				6FE9BD121CB6E0B700A06098 /* Info.plist */,
+				6F5A75711CB83EE2008759DE /* Images.xcassets */,
+				6FE9BD011CB6E0B600A06098 /* Supporting Files */,
+			);
+			path = woshipmAPP;
+			sourceTree = "<group>";
+		};
+		6FE9BD011CB6E0B600A06098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD021CB6E0B600A06098 /* main.m */,
+				6F5A75271CB7E2FD008759DE /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FE9BD1A1CB6E0B800A06098 /* woshipmAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD1B1CB6E0B800A06098 /* woshipmAPPTests.m */,
+				6FE9BD1D1CB6E0B800A06098 /* Info.plist */,
+			);
+			path = woshipmAPPTests;
+			sourceTree = "<group>";
+		};
+		6FE9BD251CB6E0B800A06098 /* woshipmAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FE9BD261CB6E0B800A06098 /* woshipmAPPUITests.m */,
+				6FE9BD281CB6E0B800A06098 /* Info.plist */,
+			);
+			path = woshipmAPPUITests;
+			sourceTree = "<group>";
+		};
+		C9FA84BDA60969875C745E9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E064D00A0E6ECAAF94E53952 /* Pods.debug.xcconfig */,
+				BFC640CEAC166D73A160DD2F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE9BD2B1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPP" */;
+			buildPhases = (
+				9AA29AA289774F73D5926880 /* Check Pods Manifest.lock */,
+				6FE9BCFA1CB6E0B600A06098 /* Sources */,
+				6FE9BCFB1CB6E0B600A06098 /* Frameworks */,
+				6FE9BCFC1CB6E0B600A06098 /* Resources */,
+				8014422FB9EF6FAA3105D232 /* Embed Pods Frameworks */,
+				101A6D8B346A12C2F0E8232E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woshipmAPP;
+			productName = woshipmAPP;
+			productReference = 6FE9BCFE1CB6E0B600A06098 /* woshipmAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FE9BD161CB6E0B700A06098 /* woshipmAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE9BD2E1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPTests" */;
+			buildPhases = (
+				6FE9BD131CB6E0B700A06098 /* Sources */,
+				6FE9BD141CB6E0B700A06098 /* Frameworks */,
+				6FE9BD151CB6E0B700A06098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE9BD191CB6E0B700A06098 /* PBXTargetDependency */,
+			);
+			name = woshipmAPPTests;
+			productName = woshipmAPPTests;
+			productReference = 6FE9BD171CB6E0B700A06098 /* woshipmAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FE9BD211CB6E0B800A06098 /* woshipmAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FE9BD311CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPUITests" */;
+			buildPhases = (
+				6FE9BD1E1CB6E0B800A06098 /* Sources */,
+				6FE9BD1F1CB6E0B800A06098 /* Frameworks */,
+				6FE9BD201CB6E0B800A06098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE9BD241CB6E0B800A06098 /* PBXTargetDependency */,
+			);
+			name = woshipmAPPUITests;
+			productName = woshipmAPPUITests;
+			productReference = 6FE9BD221CB6E0B800A06098 /* woshipmAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FE9BCF61CB6E0B500A06098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = myApple;
+				TargetAttributes = {
+					6FE9BCFD1CB6E0B600A06098 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9C3NNACRSM;
+					};
+					6FE9BD161CB6E0B700A06098 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9C3NNACRSM;
+						TestTargetID = 6FE9BCFD1CB6E0B600A06098;
+					};
+					6FE9BD211CB6E0B800A06098 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9C3NNACRSM;
+						TestTargetID = 6FE9BCFD1CB6E0B600A06098;
+					};
+				};
+			};
+			buildConfigurationList = 6FE9BCF91CB6E0B500A06098 /* Build configuration list for PBXProject "woshipmAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE9BCF51CB6E0B500A06098;
+			productRefGroup = 6FE9BCFF1CB6E0B600A06098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */,
+				6FE9BD161CB6E0B700A06098 /* woshipmAPPTests */,
+				6FE9BD211CB6E0B800A06098 /* woshipmAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FE9BCFC1CB6E0B600A06098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5A756A1CB8235F008759DE /* threePicCell.xib in Resources */,
+				6FE9BD111CB6E0B700A06098 /* LaunchScreen.storyboard in Resources */,
+				6FE9BD0E1CB6E0B700A06098 /* Assets.xcassets in Resources */,
+				6F5A75721CB83EE2008759DE /* Images.xcassets in Resources */,
+				6F5A755E1CB809FA008759DE /* onePicCell.xib in Resources */,
+				6FE9BD0C1CB6E0B600A06098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD151CB6E0B700A06098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD201CB6E0B800A06098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101A6D8B346A12C2F0E8232E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8014422FB9EF6FAA3105D232 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA29AA289774F73D5926880 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FE9BCFA1CB6E0B600A06098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5A75701CB83832008759DE /* LeftSideMenuViewController.m in Sources */,
+				6F5A75681CB81AF3008759DE /* MainTableViewController.m in Sources */,
+				6F5A75611CB815AD008759DE /* threePicTableViewCell.m in Sources */,
+				6F5A75521CB7F6DD008759DE /* MMDrawerVisualStateManager.m in Sources */,
+				6FE9BD091CB6E0B600A06098 /* ViewController.m in Sources */,
+				6FE9BD061CB6E0B600A06098 /* AppDelegate.m in Sources */,
+				6FE9BD031CB6E0B600A06098 /* main.m in Sources */,
+				6F5A755D1CB809FA008759DE /* onePicTableViewCell.m in Sources */,
+				6F5A75551CB7FD8A008759DE /* CenterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD131CB6E0B700A06098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9BD1C1CB6E0B800A06098 /* woshipmAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE9BD1E1CB6E0B800A06098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9BD271CB6E0B800A06098 /* woshipmAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FE9BD191CB6E0B700A06098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */;
+			targetProxy = 6FE9BD181CB6E0B700A06098 /* PBXContainerItemProxy */;
+		};
+		6FE9BD241CB6E0B800A06098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FE9BCFD1CB6E0B600A06098 /* woshipmAPP */;
+			targetProxy = 6FE9BD231CB6E0B800A06098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FE9BD0A1CB6E0B600A06098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE9BD0B1CB6E0B600A06098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FE9BD0F1CB6E0B700A06098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FE9BD101CB6E0B700A06098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FE9BD291CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FE9BD2A1CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FE9BD2C1CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E064D00A0E6ECAAF94E53952 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = woshipmAPP/PrefixHeader.pch;
+				INFOPLIST_FILE = woshipmAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FE9BD2D1CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC640CEAC166D73A160DD2F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = woshipmAPP/PrefixHeader.pch;
+				INFOPLIST_FILE = woshipmAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FE9BD2F1CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = woshipmAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woshipmAPP.app/woshipmAPP";
+			};
+			name = Debug;
+		};
+		6FE9BD301CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = woshipmAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woshipmAPP.app/woshipmAPP";
+			};
+			name = Release;
+		};
+		6FE9BD321CB6E0B800A06098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = woshipmAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woshipmAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6FE9BD331CB6E0B800A06098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = woshipmAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crane.woshipmAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woshipmAPP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE9BCF91CB6E0B500A06098 /* Build configuration list for PBXProject "woshipmAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD291CB6E0B800A06098 /* Debug */,
+				6FE9BD2A1CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE9BD2B1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD2C1CB6E0B800A06098 /* Debug */,
+				6FE9BD2D1CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE9BD2E1CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD2F1CB6E0B800A06098 /* Debug */,
+				6FE9BD301CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FE9BD311CB6E0B800A06098 /* Build configuration list for PBXNativeTarget "woshipmAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9BD321CB6E0B800A06098 /* Debug */,
+				6FE9BD331CB6E0B800A06098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE9BCF61CB6E0B500A06098 /* Project object */;
+}
