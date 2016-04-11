@@ -236,7 +236,6 @@ static NSString * const reuseIdThreePic=@"threePicCell";
     NSURL *URL = [NSURL URLWithString:[listObj.strLink stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]];
     SVWebViewController *webViewController = [[SVWebViewController alloc] initWithURL:URL];
     webViewController.modalPresentationStyle = UIModalPresentationPageSheet;
-    webViewController.extendedLayoutIncludesOpaqueBars=NO;
     webViewController.delegate=self;
 
     

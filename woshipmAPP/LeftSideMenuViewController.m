@@ -7,6 +7,8 @@
 //
 
 #import "LeftSideMenuViewController.h"
+#import <MMDrawerController/UIViewController+MMDrawerController.h>
+#import <MMDrawerController/MMDrawerBarButtonItem.h>
 #define resuseCellID @"LeftSidecell"
 @interface LeftSideMenuViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong)UITableView *tableV;
@@ -124,6 +126,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+     NSLog(@"%@",[_arrMenu objectAtIndex:indexPath.row]);
+     [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
     
 }
 
