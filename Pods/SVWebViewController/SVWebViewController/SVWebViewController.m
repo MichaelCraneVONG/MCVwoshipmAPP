@@ -10,7 +10,7 @@
 #import "SVWebViewControllerActivitySafari.h"
 #import "SVWebViewController.h"
 
-@interface SVWebViewController () <UIWebViewDelegate,UIScrollViewDelegate>
+@interface SVWebViewController () <UIWebViewDelegate>
 
 @property (nonatomic, strong) UIBarButtonItem *backBarButtonItem;
 @property (nonatomic, strong) UIBarButtonItem *forwardBarButtonItem;
@@ -20,7 +20,7 @@
 
 @property (nonatomic, strong) UIWebView *webView;
 @property (nonatomic, strong) NSURLRequest *request;
-@property (nonatomic, strong) UIView *statusBar;
+
 @end
 
 
@@ -64,13 +64,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.toolbarHidden=YES;
-    self.navigationController.navigationBarHidden=YES;
-//    [self updateToolbarItems];
-    _statusBar=[[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 20)];
-    _statusBar.backgroundColor=[UIColor yellowColor];
-    [self.view addSubview:_statusBar];
-    
+    [self updateToolbarItems];
 }
 
 - (void)viewDidUnload {
@@ -88,13 +82,12 @@
     
     [super viewWillAppear:animated];
     
-//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-//        [self.navigationController setToolbarHidden:NO animated:animated];
-//    }
-//    else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-//        [self.navigationController setToolbarHidden:YES animated:animated];
-//    }
-//    self.navigationController.toolbarHidden=YES;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        [self.navigationController setToolbarHidden:NO animated:animated];
+    }
+    else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        [self.navigationController setToolbarHidden:YES animated:animated];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -123,9 +116,7 @@
     if(!_webView) {
         _webView = [[UIWebView alloc] initWithFrame:[UIScreen mainScreen].bounds];
         _webView.delegate = self;
-        _webView.scrollView.delegate=self;
         _webView.scalesPageToFit = YES;
-        _webView.scrollView.bounces=NO;
     }
     return _webView;
 }
@@ -229,8 +220,7 @@
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
-    self.navigationController.toolbarHidden=YES;
-    //[self updateToolbarItems];
+    [self updateToolbarItems];
     
     if ([self.delegate respondsToSelector:@selector(webViewDidStartLoad:)]) {
         [self.delegate webViewDidStartLoad:webView];
@@ -241,11 +231,11 @@
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     
-//    if (self.navigationItem.title == nil) {
+    if (self.navigationItem.title == nil) {
         self.navigationItem.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-//    }
-
-    //    [self updateToolbarItems];
+    }
+    
+    [self updateToolbarItems];
     
     if ([self.delegate respondsToSelector:@selector(webViewDidFinishLoad:)]) {
         [self.delegate webViewDidFinishLoad:webView];
@@ -254,7 +244,7 @@
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-//    [self updateToolbarItems];
+    [self updateToolbarItems];
     
     if ([self.delegate respondsToSelector:@selector(webView:didFailLoadWithError:)]) {
         [self.delegate webView:webView didFailLoadWithError:error];
@@ -318,19 +308,4 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
-
-//- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView;
-- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView
-{
-    
-}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    if(scrollView.contentOffset.y>70)
-    {
-        
-    }
-   
-}
 @end
